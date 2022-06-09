@@ -1,3 +1,4 @@
+//
 // Background scrolling speed
 let move_speed = 4;
 
