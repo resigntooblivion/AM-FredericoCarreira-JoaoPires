@@ -5,14 +5,15 @@
 }
 
 body {
-    height: 400;
-    width: 400;
+    height: 100vh;
+    width: 100vw;
 }
 
-.background{
-    height: auto;
-    width: auto;
-    background-color: aquamarine;
+.background {
+    height: 100vh;
+    width: 100vh;
+    background-color: skyblue;
+    background-image: url("./imgs/background.gif");
 }
 
 .plane {
@@ -30,7 +31,7 @@ body {
     left: 100vw;
     height: 70vh;
     width: 6vw;
-    background-color: green;
+    background-color: grey;
 }
 
 .message {
@@ -51,11 +52,11 @@ body {
     height: 10vh;
     font-size: 10vh;
     font-weight: 100;
-    color: goldenrod;
+    color: #022aec;
     top: 0;
     left: 0;
 }
 
 .score_val {
-    color: gold;
+    color: #f3b400;
 }
